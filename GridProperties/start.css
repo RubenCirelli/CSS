@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    display: grid;
+  
+}
+
+#green{
+    grid-column: 10 span;
+    grid-row: span;
+    
+} 
+
+#yellow{
+    grid-column: 4 span;
+    grid-row:2 span ;
+}
+
+#red{ 
+    
+    grid-column:4 span ;
+    grid-row: 2 span;
+    
+}
+
+#blue{
+    grid-row: 4 span;
+    
+}
+
+#orange{
+    grid-row: 4;
+    grid-column: 8 span;
+    
+}
